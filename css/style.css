@@ -6,5 +6,23 @@
 
 .debug{
   border: 2px solid red;
-  
+
+}
+
+header{
+  background-color: yellow;
+}
+
+ul li{
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
