@@ -119,3 +119,7 @@ button {
   align-items: center;
   width: calc(70%/4);
 }
+
+.bg-salmon{
+  background-color: salmon;
+}
