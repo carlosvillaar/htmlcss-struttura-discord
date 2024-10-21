@@ -26,12 +26,22 @@ body{
   color: white
 }
 
+.blue-text{
+  color: #8FA1E2;
+}
+
 img{
   width: 100%;
   height: 100%;
 }
+
 header a {
   color: white;
+}
+
+button a{
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover{
@@ -52,7 +62,7 @@ ul li{
   list-style: none;
 }
 
-ul li a{
+nav ul li a{
   text-decoration: none;
 }
 
@@ -87,6 +97,10 @@ button:hover{
   justify-content: center;
 }
 
+.white-text{
+  color: white;
+}
+
 .main-title{
   text-align: center;
   padding: 20px;
@@ -109,11 +123,6 @@ button:hover{
 .section-text{
   margin:0 50px;
 }
-
-.bg-purple {
-  background-color: violet;
-}
-
 
 .bg-blue {
   background-color: #3260E0;
@@ -145,11 +154,6 @@ button:hover{
 }
 
 
-
-.bg-green{
-  background-color: green;
-}
-
 .col{
   flex-direction: column;
 }
@@ -158,32 +162,42 @@ footer{
   background-color: #23272A;
 }
 
+.footer-title{
+  font-size: 1.7rem;
+  width: 250px;
+}
+
+h4{
+  display: flex;
+  text-align:;
+}
+
 .footer-top{
-  height: 400px;
+  padding: 50px;
 
 }
 
 .footer-bottom{
-  height: 100px;
+  min-height: 100px;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .footer-box{
   width: 40%;
-
+  line-height: 40px;
 }
 
 .footer-col{
   width: 100px;
-  align-items: center;
   width: calc(70%/4);
 }
 
-.bg-salmon{
-  background-color: salmon;
+footer a{
+  text-decoration: none;
+  color: white;
 }
-
 
 .bg-grey{
   background-color: #F6F6F6;
@@ -209,4 +223,13 @@ footer{
   background-repeat: no-repeat;
   height: 50%;
   width: 50%;
+}
+
+.icons{
+  gap: 20px;
+}
+
+.line{
+  border-top: 1px solid grey;
+  border-radius: 1px;
 }
