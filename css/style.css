@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 25px;
+}
+
 .wrapper {
-  width: 900px;
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -13,8 +18,24 @@
   display: flex;
 }
 
-.main-header {
-  background-color: yellow;
+.full-width {
+  width: 100%
+}
+
+.white-text{
+  color: white
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+header a {
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .debug{
@@ -22,7 +43,6 @@
 }
 
 header{
-  background-color: grey;
   display: flex;
   padding: 10px 0px;
   width: 100%
@@ -34,10 +54,6 @@ ul li{
 
 ul li a{
   text-decoration: none;
-}
-
-.full-width {
-  width: 100%
 }
 
 .menu{
@@ -53,24 +69,51 @@ button {
   border: 0;
   border-radius: 30px;
   padding: 10px 15px;
-  
 }
 
 button:hover{
   cursor: pointer;
+  opacity: 50%;
+}
+
+.buttons{
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title{
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.main-text{
+  text-align: center;
+  padding: 20px;
+}
+
+.section-title{
+  justify-content: center;
+  padding: 30px 0;
+  margin: 0 50px;
+  font-size: 2.7rem;
+  line-height: 45px;
+}
+
+.section-text{
+  margin:0 50px;
 }
 
 .bg-purple {
   background-color: violet;
 }
 
-.first-section {
-  height: 400px;
-  width: 60%
-}
-.second-section {
-  height: 500px
-}
 
 .bg-blue {
   background-color: #3260E0;
@@ -79,20 +122,29 @@ button:hover{
 .box{
   justify-content: center;
   align-items: center;
-  padding: 50px 0px
+  padding: 50px 0px;
+  min-width: 900px;
+}
+
+.jumbo{
+  background-image: url(../assets/img/jumbo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 900px;
 }
 
 .big-container {
-  width:60%
+  width:60%;
+  justify-content: center;
 }
 
 .small-container {
-  width: 40%
+  width: 40%;
+  align-items: center;
 }
 
-.third-section{
-  height: 400px;
-}
+
 
 .bg-green{
   background-color: green;
@@ -143,11 +195,18 @@ footer{
 }
 
 .btn-dark{
-  background-color: ;
+  background-color: #22282A ;
   color: white;
 }
 
 .btn-blue{
-  background-color: ;
+  background-color: #8FA1E2;
   color: white;
+}
+
+.stars{
+  background-image: url(../assets/img/stars.svg);
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 50%;
 }
