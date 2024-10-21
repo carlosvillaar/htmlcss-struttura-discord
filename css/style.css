@@ -6,11 +6,11 @@
 
 .wrapper {
   width: 900px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .flex {
-  display: flex 
+  display: flex;
 }
 
 .main-header {
@@ -56,6 +56,10 @@ button {
   
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 .bg-purple {
   background-color: violet;
 }
@@ -69,7 +73,7 @@ button {
 }
 
 .bg-blue {
-  background-color: blue;
+  background-color: #3260E0;
 }
 
 .box{
@@ -98,6 +102,10 @@ button {
   flex-direction: column;
 }
 
+footer{
+  background-color: #23272A;
+}
+
 .footer-top{
   height: 400px;
 
@@ -122,4 +130,24 @@ button {
 
 .bg-salmon{
   background-color: salmon;
+}
+
+
+.bg-grey{
+  background-color: #F6F6F6;
+}
+
+.btn-white{
+  background-color: white;
+  color: black;
+}
+
+.btn-dark{
+  background-color: ;
+  color: white;
+}
+
+.btn-blue{
+  background-color: ;
+  color: white;
 }
